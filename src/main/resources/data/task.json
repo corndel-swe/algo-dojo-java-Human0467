@@ -1,0 +1,119 @@
+{
+  "id": "project",
+  "title": "Launch New Website",
+  "done": false,
+  "effort": 13,
+  "children": [
+    {
+      "id": "planning",
+      "title": "Planning",
+      "done": true,
+      "effort": 5,
+      "children": [
+        {
+          "id": "requirements",
+          "title": "Gather requirements",
+          "done": true,
+          "effort": 2,
+          "children": []
+        },
+        {
+          "id": "research",
+          "title": "Market research",
+          "done": false,
+          "effort": 4,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "design",
+      "title": "Design",
+      "done": false,
+      "effort": 8,
+      "children": [
+        {
+          "id": "wireframes",
+          "title": "Create wireframes",
+          "done": true,
+          "effort": 3,
+          "children": []
+        },
+        {
+          "id": "prototypes",
+          "title": "Build prototypes",
+          "done": false,
+          "effort": 5,
+          "children": [
+            {
+              "id": "desktop",
+              "title": "Desktop layout",
+              "done": false,
+              "effort": 3,
+              "children": []
+            },
+            {
+              "id": "mobile",
+              "title": "Mobile layout",
+              "done": true,
+              "effort": 2,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "development",
+      "title": "Development",
+      "done": false,
+      "effort": 20,
+      "children": [
+        {
+          "id": "frontend",
+          "title": "Frontend",
+          "done": false,
+          "effort": 12,
+          "children": [
+            {
+              "id": "landing",
+              "title": "Landing page",
+              "done": true,
+              "effort": 3,
+              "children": []
+            },
+            {
+              "id": "dashboard",
+              "title": "Dashboard",
+              "done": false,
+              "effort": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "backend",
+          "title": "Backend",
+          "done": true,
+          "effort": 8,
+          "children": [
+            {
+              "id": "api",
+              "title": "API endpoints",
+              "done": true,
+              "effort": 5,
+              "children": []
+            },
+            {
+              "id": "auth",
+              "title": "Authentication",
+              "done": false,
+              "effort": 3,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
